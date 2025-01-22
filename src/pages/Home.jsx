@@ -33,13 +33,13 @@ const Home = () => {
                 </button>
               </div>
               <div className='flex gap-6 items-center px-4 text-neon border-neon '>
-                <Link to="https://github.com/bikash138">
+                <Link to="https://github.com/bikash138" target='_blank'>
                   <FaGithub className='rounded-full border-[1px]  py-1 px-1 size-7 cursor-pointer hover:bg-neon hover:text-richblack-800'/>
                 </Link>
-                <Link to="https://www.linkedin.com/in/bikash-shaw-5ab74727b/">
+                <Link to="https://www.linkedin.com/in/bikash-shaw-5ab74727b/" target='_blank'>
                   <FaLinkedinIn className=' rounded-full border-[1px]  py-1 px-1 size-7 cursor-pointer hover:bg-neon hover:text-richblack-800'/>
                 </Link>
-                <Link to="https://x.com/Bikash__Shaw">
+                <Link to="https://x.com/Bikash__Shaw" target='_blank'>
                   <FaTwitter className=' rounded-full border-[1px]  py-1 px-1 size-7 cursor-pointer hover:bg-neon hover:text-richblack-800'/>
                 </Link>
               </div>
