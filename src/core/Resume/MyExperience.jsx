@@ -10,7 +10,7 @@ const MyExperience = () => {
                 sit amet consectetur adipisicing elit. Doloribus, 
                 saepe!
               </p>
-              <div className='grid grid-cols-2 gap-4'>
+              <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
                   {
                       resumeExperience.map((data, index)=>(
                           <div key={index} className='h-[184px] px-10 py-6 gap-y-3 w-full bg-richblack-800 rounded-xl flex flex-col justify-center items-center lg:items-start'>

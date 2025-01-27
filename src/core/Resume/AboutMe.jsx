@@ -5,11 +5,11 @@ const AboutMe = () => {
   return (
     <>
       <div className='text-white'>
-        <p className='text-3xl font-semibold'>About Me</p>
+        <p className='text-3xl font-semibold '>About Me</p>
         <p className='text-sm text-richblack-300 mt-5 mb-6'>Lorem ipsum, dolor sit amet 
                consectetur adipisicing elit. Doloribus, saepe!
         </p>
-        <div className='grid grid-cols-2 gap-4 gap-y-8'>
+        <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
           {
             resumeAboutMe.map((data, index)=>(
               <div key={index}

@@ -9,7 +9,7 @@ const MyEducation = () => {
         <p className='text-sm text-richblack-300 mt-5 mb-6'>Lorem ipsum, dolor sit amet 
           consectetur adipisicing elit. Doloribus, saepe!
         </p>
-        <div className='grid grid-cols-2 gap-4'>
+        <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
             {
                 resumeEducation.map((data, index)=>(
                     <div key={index}
